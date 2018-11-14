@@ -26,7 +26,7 @@ Copy the address, send exactly 1000 RAP to this address and wait for 15 confirma
 
 Type ``masternode outputs`` and note the ``LONGSTRING`` followed by a ``0`` or ``1``
 
-Edit ``C:\Users\USERNAME\AppData\Roaming\RaptureCore\masternode.conf`` in your favorite text editor, adding the following line (editing the ``MASTERNODEKEY``, ``LONGSTRING``, and ``X.Y.Z.A`` accordingly)
+Edit ``C:\Users\USERNAME\AppData\Roaming\RaptureCore\masternode.conf`` in your favorite text editor, adding the following line (editing the ``MASTERNODEKEY``, ``LONGSTRING``, and ``X.Y.Z.A`` and the ``0`` or ``1`` accordingly)
 
 ``masternode1 X.Y.Z.A:14777 MASTERNODEKEY LONGSTRING 0``
 
