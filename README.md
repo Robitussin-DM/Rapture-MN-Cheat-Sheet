@@ -72,6 +72,8 @@ Log in to your Vultr server and execute the following commands:
 
 ``echo "masternode=1" >> ~/.rapturecore/rapture.conf ``
 
+            NOTE: For the next step, don't forget to update ``MASTERNODEKEY`` to be the key you generated above.
+
 ``echo "masternodeprivkey=MASTERNODEKEY" >> ~/.rapturecore/rapture.conf``
 
 ``echo "maxconnections=50" >> ~/.rapturecore/rapture.conf``
