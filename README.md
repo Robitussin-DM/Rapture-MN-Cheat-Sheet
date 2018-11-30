@@ -92,7 +92,7 @@ Log in to your Vultr server and execute the following commands:
 
 ``crontab -l | { cat ; echo "* * * * * cd /home/rapturenode/sentinel && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1"; } | crontab -``
 
-``watch rapturecore-1.1.2/bin/rapture-cli getblockcount``
+``watch ~/rapturecore-1.1.2/bin/rapture-cli getblockcount``
 
 When the number matches the highest block on http://explorer.our-rapture.com/, go to the "Masternodes" tab on the local wallet and "Start Alias"
 
